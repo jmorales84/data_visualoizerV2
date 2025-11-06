@@ -4,4 +4,5 @@ from . import views
 urlpatterns = [
     path('visualizar_dataset/', views.visualizar_dataset, name='visualizar_dataset'),
     path('upload_arff/', views.upload_arff, name='upload_arff'),
+    # NOTA: He eliminado la ruta listar_archivos ya que no la necesitas
 ]
